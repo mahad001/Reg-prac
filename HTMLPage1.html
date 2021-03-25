@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
+</head>
+
+<body onload='Reg_Form.text1()'>
+    <form name="Reg_Form" action="#">
+        <h1>Registration Form</h1>
+        <input type="text" placeholder="FirstName" />
+        <input type="text" placeholder="Lastname" />
+        <input type="email" placeholder="Email" />
+        <input type="password" placeholder="Password" />
+        <input type="password" placeholder="Confirm Password" />
+        <input type="text" id="textDate" placeholder="DOB" onblur="ValidateDOB" />
+        <span class="error" id="displayerror"></span>
+        <input type="button" id="validatebutton" value="validate" onclick="return ValidateDOB()" />
+        <br />
+        <input type='text' name='text1' placeholder="Telephone number">
+        <input type="submit" name="submit" value="Submit" onclick="phonenumber(Reg_Form.text1)" />
+
+
+    </form>
+    <script src="Script1.js"></script>
+</body>
+</html>
+
+

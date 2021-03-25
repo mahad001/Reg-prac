@@ -1,0 +1,48 @@
+﻿body{
+    background-color: aquamarine;
+}
+h1 {
+    text-align:center;
+    font-size: 50px;
+    color: black;
+}
+form {
+    margin: 20px auto;
+    width: 320px;
+    color: lightpink;
+}
+input{
+    padding: 10px;
+    font-size: inherit;
+}
+input[type="text"]{
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid black;
+}
+input[type="password"] {
+        display: block;
+        margin-bottom: 25px;
+        width: 100%;
+        border: 2px solid black;
+
+}
+    input[type="email"] {
+        display: block;
+        margin-bottom: 25px;
+        width: 100%;
+        border: 2px solid black;
+    }
+    input[type="submit"]{
+        widht: 344px;
+        height: 45px;
+        border: none;
+        background: steelblue;
+        color: white;
+    }
+
+
+    
+        
+        
